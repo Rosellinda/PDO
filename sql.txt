@@ -1,0 +1,16 @@
+SQL Injection How to Execute Attack and Prevent Attack using PHP7
+
+What is SQL Injection Attack
+
+SQL Injection (SQLi) is a type of an injection attack that makes it possible to execute malicious SQL statements. These statements control a database server behind a web application.
+
+WHAT IS LOOK LIKE?
+SELECT * FROM Users WHERE username =" OR 1=1 AND password=" OR 1=1;
+' or 1='1
+
+********
+$username = mysqli_real_escape_string($con, $_POST['username']);
+$password = mysqli_real_escape_string($con, $_POST['password']);
+
+lahat na nilalagay na character sa $username, mysqli_real_escape_string will treat this as string.
+' or 1='1 kikilalanin na nito ni database as string;

@@ -12,3 +12,20 @@ to the server separately from the query.
 
 
 ////////////////////////////////////////////////
+
+What is OOP?
+Object Oriented Programming is a programming paradigm based on the concept of "objects", which can containe data, in the form of fields, and code.
+
+Paradigm - perspective or set of idea
+
+What is class and Object?
+Classes are templates used in object-oriented programming to create objects, which are instance of that class. They are useful for organizing related variables and functions.
+
+******if inistatiate mo si class, objects na sya.
+
+Object is an instance of a class that defines what property, variable or functions of the class.
+
+
+//////Class inheritance
+> inheritance is one of the core concepts of object-oriented programming (OOP) languages. It is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+
