@@ -1,0 +1,14 @@
+PHP Data Objects (PDO) extension defines a lightweight, consistent interface for accessing databases in PHP.
+1. Multiple Databases.
+2. Security / Prepared Statements
+3. Reusability
+4. Error Handling
+
+PHP prepared statements.
+They are templates for sending queries or uploading data to SQL databases.
+
+Using PDO or MySQLi, prepared statements provide an additional layer of security as the values are being sent
+to the server separately from the query.
+
+
+////////////////////////////////////////////////
